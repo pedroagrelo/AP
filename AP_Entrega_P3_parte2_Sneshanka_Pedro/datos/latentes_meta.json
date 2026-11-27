@@ -1,0 +1,17 @@
+{
+ "modelo_elegido": "p1",
+ "etiqueta": "Secuencial (parte 1)",
+ "latent_dim": 128,
+ "train_shape": [
+  128,
+  96,
+  128
+ ],
+ "valid_shape": [
+  32,
+  96,
+  128
+ ],
+ "encoder": "modelos/encoder_elegido.keras",
+ "decoder": "modelos/decoder_elegido.keras"
+}
